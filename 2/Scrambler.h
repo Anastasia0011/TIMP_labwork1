@@ -8,6 +8,7 @@
 #include <codecvt>
 class Scrambler
 {
+private:
     int kluch; // кол-во столбцов 
 public:
     Scrambler()=delete; // запрет конструктора без параметров
